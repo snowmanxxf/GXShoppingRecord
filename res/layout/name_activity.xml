@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/round_listview_bg" 
+	>
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView 
+			style="@style/title_label_style"
+			android:text="@string/child_category"
+			android:layout_centerInParent="true" 
+			/>
+		<Button 
+			style="@style/common_button"
+			android:id="@+id/back"
+			android:text="@string/back"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip" 
+			/>
+	</RelativeLayout>
+	<ListView 
+		style="@style/common_listview"
+		android:layout_margin="8dip"
+		android:id="@+id/name_list" 
+		/>
+</LinearLayout>

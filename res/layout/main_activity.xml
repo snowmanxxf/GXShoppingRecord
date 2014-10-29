@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+	<TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="46dip"
+    	android:text="@string/app_name"
+    	android:textColor="@color/white"
+    	android:textSize="21dip"
+    	android:gravity="center"
+    	android:background="@drawable/title_bg"
+    	android:layout_alignParentTop="true"
+    	/>
+    <GridView 
+	  	android:id="@+id/gridview" 
+	  	android:layout_width="fill_parent" 
+	  	android:layout_height="wrap_content" 
+	  	android:numColumns="3" 
+	  	android:stretchMode="columnWidth" 
+	  	android:verticalSpacing="35dip"
+	  	android:padding="0dip"
+	  	android:horizontalSpacing="0dip"
+	  	android:layout_centerInParent="true"
+  		/>
+  	<com.admogo.AdMogoLayout
+		android:id="@+id/admogo_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true"
+		/>
+</RelativeLayout>

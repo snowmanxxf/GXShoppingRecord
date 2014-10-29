@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="title_label_style">
+         <item name="android:layout_width">fill_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:gravity">center</item>
+         <item name="android:padding">8dip</item>
+         <item name="android:textSize">24dip</item>
+         <item name="android:textColor">@color/white</item>
+         <item name="android:background">@drawable/title_bg</item>
+    </style>
+    <style name="category_name">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@color/black</item>
+         <item name="android:textSize">20dip</item>
+         <item name="android:singleLine">true</item>
+         <item name="android:ellipsize">end</item>
+    </style>
+    <style name="click_choice_text">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@color/black</item>
+         <item name="android:textSize">20dip</item>
+         <item name="android:singleLine">true</item>
+         <item name="android:ellipsize">end</item>
+    </style>
+    <style name="common_button">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@color/white</item>
+         <item name="android:textSize">15dip</item>
+         <item name="android:background">@drawable/common_button</item>
+    </style>
+    <style name="common_image_button">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="common_listview">
+         <item name="android:layout_width">fill_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:divider">#cccccc</item>
+         <item name="android:background">#ffffff</item>
+         <item name="android:dividerHeight">1dip</item>
+         <item name="android:cacheColorHint">#ffffff</item>
+    </style>
+    <style name="date_choice_text">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">fill_parent</item>
+         <item name="android:textColor">@color/white</item>
+         <item name="android:textSize">17dip</item>
+         <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="date_choice_button">
+         <item name="android:layout_width">fill_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@color/white</item>
+         <item name="android:textSize">17dip</item>
+    </style>
+    <style name="date_choice_edit">
+         <item name="android:textColor">@color/black</item>
+         <item name="android:textSize">17dip</item>
+         <item name="android:gravity">center</item>
+         <item name="android:inputType">number</item>
+         <item name="android:singleLine">true</item>
+    </style>
+    <style name="linearlayout_for_choice">
+         <item name="android:orientation">horizontal</item>
+         <item name="android:layout_width">fill_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:paddingLeft">10dip</item>
+         <item name="android:paddingRight">10dip</item>
+         <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

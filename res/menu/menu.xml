@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:title="@string/setting" 
+    	android:id="@+id/setting" 
+    	android:icon="@drawable/menu_setting">
+    </item>
+    <item 
+		android:title="@string/feedback" 
+		android:id="@+id/feed_back" 
+		android:icon="@drawable/menu_feedback">
+	</item>
+    <item 
+    	android:title="@string/about" 
+    	android:id="@+id/about_99fang" 
+    	android:icon="@drawable/menu_about">
+    </item>
+</menu>

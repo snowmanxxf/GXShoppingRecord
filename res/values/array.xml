@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="main_activity_rows">
+		<item>新增计划</item>
+		<item>购物计划</item>
+		<item>历史购物</item>
+		<item>添加购物</item>
+		<item>购物统计</item>
+		<item>关于软件</item>
+		<item>类别管理</item>
+		<item>我要反馈</item>
+		<item>退出程序</item>
+	</string-array>
+	<string-array name="dan_wei_value">
+		<item>斤</item>
+		<item>公斤</item>
+		<item>克</item>
+		<item>千克</item>
+		<item>吨</item>
+		<item>磅</item>
+		<item>担</item>
+		<item>个</item>
+		<item>包</item>
+		<item>把</item>
+		<item>件</item>
+		<item>辆</item>
+		<item>瓶</item>
+		<item>套</item>
+		<item>袋</item>
+		<item>对</item>
+		<item>台</item>
+		<item>间</item>
+		<item>扇</item>
+		<item>部</item>
+		<item>张</item>
+		<item>打</item>
+		<item>双</item>
+	</string-array>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent" 
+  	android:background="@drawable/round_listview_bg" 
+  	>
+  	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+	  	<TextView style="@style/title_label_style"
+	  		android:text="@string/shopping_statistics"
+	  		android:layout_centerInParent="true"
+	  		 />
+	  	<Button style="@style/common_button"
+			android:id="@+id/corfirm"
+			android:text="@string/confirm"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip" />
+		<Button style="@style/common_button"
+			android:id="@+id/cancel"
+			android:text="@string/back"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip" />
+	</RelativeLayout>
+  	<LinearLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_marginTop="12dip"
+  		android:layout_marginLeft="8dip"
+  		android:layout_marginRight="8dip"
+  		android:orientation="vertical"
+  		android:layout_weight="1" >
+	  	<LinearLayout style="@style/linearlayout_for_choice"
+	  		android:id="@+id/choice_category_view"
+	  		android:background="@drawable/form_row_input_top" >
+	  		<TextView style="@style/category_name"
+	  			android:text="@string/shop_category"/>
+	  		<TextView style="@style/click_choice_text" 
+	  			android:id="@+id/choice_category"
+	  			android:layout_width="fill_parent"
+	  			android:layout_weight="1"
+	  			android:layout_marginLeft="5dip"
+	  			android:text="@string/unlimit" />
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:layout_marginTop="4dip"
+	  			android:src="@drawable/arrow_down" />
+	  	</LinearLayout>
+	  	<LinearLayout style="@style/linearlayout_for_choice"
+	  		android:id="@+id/choice_name_view" 
+	  		android:background="@drawable/form_row_input_middle" >
+	  		<TextView style="@style/category_name"
+	  			android:text="@string/shop_name"/>
+	  		<TextView style="@style/click_choice_text" 
+	  			android:id="@+id/choice_name"
+	  			android:layout_weight="1"
+	  			android:layout_marginLeft="5dip"
+	  			android:text="@string/unlimit" />
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:layout_marginTop="4dip"
+	  			android:src="@drawable/arrow_down" />
+	  	</LinearLayout>
+	  	<LinearLayout style="@style/linearlayout_for_choice"
+	  		android:id="@+id/start_date_view" 
+	  		android:background="@drawable/form_row_input_middle" >
+	  		<TextView style="@style/category_name"
+	  			android:text="@string/start_date"/>
+	  		<TextView style="@style/click_choice_text" 
+	  			android:id="@+id/start_date"
+	  			android:layout_weight="1"
+	  			android:layout_marginLeft="5dip"
+				android:text="@string/unlimit" />
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:layout_marginTop="4dip"
+	  			android:src="@drawable/arrow_down" />
+	  	</LinearLayout>
+	  	<LinearLayout style="@style/linearlayout_for_choice"
+	  		android:id="@+id/end_date_view" 
+	  		android:background="@drawable/form_row_input_middle" >
+	  		<TextView style="@style/category_name"
+	  			android:text="@string/end_date"/>
+	  		<TextView style="@style/click_choice_text" 
+	  			android:id="@+id/end_date"
+	  			android:layout_weight="1"
+	  			android:layout_marginLeft="5dip"
+				android:text="@string/unlimit" />
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:layout_marginTop="4dip"
+	  			android:src="@drawable/arrow_down" />
+	  	</LinearLayout>
+	  	<LinearLayout style="@style/linearlayout_for_choice"
+	  		android:id="@+id/reset_all_condition" 
+	  		android:background="@drawable/form_row_input_buttom" >
+	  		<TextView
+	  			android:layout_width="fill_parent"
+	  			android:layout_height="wrap_content"
+	  			android:text="@string/reset_all_condition"
+	  			android:textColor="@color/black"
+	  			android:gravity="center"
+	  			android:textSize="20dip" />
+	  	</LinearLayout>
+  	</LinearLayout>
+</LinearLayout>
